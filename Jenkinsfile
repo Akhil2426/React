@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         DOCKER_IMAGE_NAME = 'myreact'
-        DOCKER_HUB_CREDENTIALS = 'dockerhub_id'
+        DOCKER_HUB_CREDENTIALS = 'docker-hub'
         DOCKER_HUB_REPO = 'imr99/myreact'  
         CONTAINER_NAME = 'myreactappContainer'
     }
